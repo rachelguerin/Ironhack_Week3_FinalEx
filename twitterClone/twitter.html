@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter Clone</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/twitter.css">
+</head>
+<body>
+	<header>
+	<div class="row">
+		<div class="col-md-4"><nav>
+			<ul class="list-unstyled list-inline">
+				<li><a href="">
+					<span class="glyphicon glyphicon-home"></span>
+					<span class="text">Home</span>
+				</a></li>
+				<li><a href="">
+					<span class="glyphicon glyphicon-bell"></span>
+					<span class="text">Notifications</span>
+				</a></li>
+				<li><a href="">
+					<span class="glyphicon glyphicon-envelope"></span>
+					<span class="text">Messages</span>
+				</a></li>
+			</ul>
+		</nav></div>
+		
+		<div class="col-md-4 twitter-icon"><img src="img/twitter-logo.png" alt=""></div>
+		<div class="col-md-4"><div class="top-right">
+			<input class="search-input" type="text" id="search-query" placeholder="Search Twitter">
+			<img src="img/avatar.jpg" alt="" class=""> 
+			<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-leaf"></span>&nbsp;Tweet</button>
+		</div></div>
+	</div>
+	</header>
+	<div class="container-fluid">
+	<div class="banner">
+		<span class="avatar"><img src="img/avatar.jpg" alt="" class=""></span>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-8">
+			<ul class="list-unstyled list-inline">
+				<li><a href=""><span class="text">TWEETS</span><br><span class="text">45</span></a></li>
+				<li><a href=""><span class="text">FOLLOWING</span><br><span class="text">57</span></a></li>
+				<li><a href=""><span class="text">FOLLOWERS</span><br><span class="text">20</span></a></li>
+				<li><a href=""><span class="text">LIKES</span><br><span class="text">98</span></a></li>
+			</ul>
+		</div>
+		<div class="col-md-1"><button type="button" class="btn btn-default">Edit Profile</button></div>
+	</div>
+	<div class="row main">
+		<div class="col-md-3">
+		<div class="profile">
+			<h3>rachel.guerin</h3>
+			<p>@rachel.guerin23</p>
+			<p><span class="glyphicon glyphicon-map-marker"></span>Madrid</p>
+			<p><span class="glyphicon glyphicon-calendar"></span>Joined July 2011</p>
+			<p><span class="glyphicon glyphicon-camera"></span>Photos and videos</p>
+			<div class="photos"></div>
+		</div></div>
+		<div class="col-md-6">
+			<div class="tweets">
+				<ul class="list-unstyled list-inline">
+					<li>Tweets</li>
+					<li>Tweets & replies</li>
+					<li>Photos & videos</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="suggestions">
+				<ul class="list-unstyled list-inline">
+					<li><h4>Who to follow</h4></li>
+					<li>Refresh</li>
+					<li>View all</li>
+				</ul>		
+			</div>
+			<div class="trends">
+				<ul class="list-unstyled list-inline">
+					<li><h4>Madrid trends</h4></li>
+					<li>Change</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
